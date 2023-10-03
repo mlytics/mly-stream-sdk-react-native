@@ -3,6 +3,7 @@
 #import <React/RCTViewManager.h>
 #import <AVKit/AVKit.h>
 #import <React/RCTLog.h>
+@import MLYSDK;
 @import MLYAVPlayer;
 
 @implementation MLYAVPlayerManager
@@ -68,16 +69,13 @@ RCT_EXPORT_METHOD(changeAutoplay:(BOOL)y) {
   [manager autoplay:y];
 }
 
-RCT_EXPORT_METHOD(setLatency:(double)latency) {
-  [manager setLatency:latency];
-}
- 
-RCT_CUSTOM_VIEW_PROPERTY(isMonitorAllowed, BOOL, UIView){
-  [manager isMonitorAllowed: [json boolValue]];
+RCT_EXPORT_METHOD(isLoaderAllowed:(BOOL)y) {
+  [manager isLoaderAllowed:y];
 }
 
-RCT_CUSTOM_VIEW_PROPERTY(isLoaderAllowed, BOOL, UIView){
-  [manager isLoaderAllowed: [json boolValue]];
+RCT_EXPORT_METHOD(latency:(double)y) {
+  [manager setLatency:y];
 }
+
 
 @end

@@ -24,8 +24,8 @@ end
 target 'mlysdkDemo' do
   platform :ios, '14.0'
   # use_frameworks!
-  pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git'
-  pod 'MLYAVPlayer', :git => 'https://github.com/mlytics/mly-stream-sdk-ios-avplayer.git' #:path => '../../p2sp-sdk-ios-avplayer'
+  pod 'MLYSDK',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
+  pod 'MLYAVPlayer',:git => 'https://github.com/mlytics/mly-stream-sdk-avplayer.git'
   
   use_modular_headers!
   
