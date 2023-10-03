@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		065DF2742A8F76D700252317 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065DF2732A8F76D700252317 /* CoreFoundation.framework */; };
 		06F5DB682A1DFA870051E0DE /* RNMLYDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F5DB672A1DFA870051E0DE /* RNMLYDriver.m */; };
+		0CDC5B845C9C77604728055F /* libPods-mlysdkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D1B495EDF7540D7107543C /* libPods-mlysdkDemo.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		323189812A167920004B96EB /* MLYAVPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 323189802A167920004B96EB /* MLYAVPlayerManager.m */; };
 		32C4EF2C2A2105430005A9EA /* SwiftBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4EF2B2A2105430005A9EA /* SwiftBridge.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DEDE68C2FA1AAE5AE169DAA5 /* libPods-mlysdkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E54F4D60B2698FE82FE5D04 /* libPods-mlysdkDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +32,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03C02961378DA4D2FF8F4FC6 /* Pods-mlysdkDemo-mlysdkDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo-mlysdkDemoTests.release.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo-mlysdkDemoTests/Pods-mlysdkDemo-mlysdkDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		065DF2732A8F76D700252317 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		06F5DB662A1DFA870051E0DE /* RNMLYDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNMLYDriver.h; path = mlysdkDemo/RNMLYDriver.h; sourceTree = "<group>"; };
 		06F5DB672A1DFA870051E0DE /* RNMLYDriver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNMLYDriver.m; path = mlysdkDemo/RNMLYDriver.m; sourceTree = "<group>"; };
@@ -42,16 +41,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mlysdkDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mlysdkDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mlysdkDemo/main.m; sourceTree = "<group>"; };
+		1FA42370038D45259A41509C /* Pods-mlysdkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo.debug.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3231897F2A167920004B96EB /* MLYAVPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MLYAVPlayerManager.h; path = mlysdkDemo/MLYAVPlayerManager.h; sourceTree = "<group>"; };
 		323189802A167920004B96EB /* MLYAVPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MLYAVPlayerManager.m; path = mlysdkDemo/MLYAVPlayerManager.m; sourceTree = "<group>"; };
 		32C4EF2A2A2105420005A9EA /* mlysdkDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mlysdkDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		32C4EF2B2A2105430005A9EA /* SwiftBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftBridge.swift; path = mlysdkDemo/SwiftBridge.swift; sourceTree = "<group>"; };
-		6D87BE784B55BE05A02461ED /* Pods-mlysdkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo.debug.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		7E54F4D60B2698FE82FE5D04 /* libPods-mlysdkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mlysdkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495A827E0F1B21151D46A885 /* Pods-mlysdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo.release.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mlysdkDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A15765AC570CB056FE588B87 /* libPods-mlysdkDemo-mlysdkDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mlysdkDemo-mlysdkDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A504008D0382AFF6FE1DF603 /* Pods-mlysdkDemo-mlysdkDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo-mlysdkDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo-mlysdkDemoTests/Pods-mlysdkDemo-mlysdkDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA5A8005731E59F4DEA8DA84 /* Pods-mlysdkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mlysdkDemo.release.xcconfig"; path = "Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2D1B495EDF7540D7107543C /* libPods-mlysdkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mlysdkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -61,7 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				065DF2742A8F76D700252317 /* CoreFoundation.framework in Frameworks */,
-				DEDE68C2FA1AAE5AE169DAA5 /* libPods-mlysdkDemo.a in Frameworks */,
+				0CDC5B845C9C77604728055F /* libPods-mlysdkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +89,7 @@
 			children = (
 				065DF2732A8F76D700252317 /* CoreFoundation.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7E54F4D60B2698FE82FE5D04 /* libPods-mlysdkDemo.a */,
-				A15765AC570CB056FE588B87 /* libPods-mlysdkDemo-mlysdkDemoTests.a */,
+				A2D1B495EDF7540D7107543C /* libPods-mlysdkDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -130,10 +126,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D87BE784B55BE05A02461ED /* Pods-mlysdkDemo.debug.xcconfig */,
-				BA5A8005731E59F4DEA8DA84 /* Pods-mlysdkDemo.release.xcconfig */,
-				A504008D0382AFF6FE1DF603 /* Pods-mlysdkDemo-mlysdkDemoTests.debug.xcconfig */,
-				03C02961378DA4D2FF8F4FC6 /* Pods-mlysdkDemo-mlysdkDemoTests.release.xcconfig */,
+				1FA42370038D45259A41509C /* Pods-mlysdkDemo.debug.xcconfig */,
+				495A827E0F1B21151D46A885 /* Pods-mlysdkDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -145,15 +139,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mlysdkDemo" */;
 			buildPhases = (
-				672D011366504E5812149388 /* [CP] Check Pods Manifest.lock */,
+				81A7F2ED433C37522A793588 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				06F3CBAE2A1CAD580025CDD4 /* ShellScript */,
 				06A944602A249A1A00C189C5 /* Embed Frameworks */,
-				48472096285F327460C705BA /* [CP] Embed Pods Frameworks */,
-				E5DAECE31187253D643AD32B /* [CP] Copy Pods Resources */,
+				700D22E02297EE3BD7DA2823 /* [CP] Embed Pods Frameworks */,
+				048F2153067A88C6DA473643 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,6 +218,23 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
+		048F2153067A88C6DA473643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		06F3CBAE2A1CAD580025CDD4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,7 +252,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 		};
-		48472096285F327460C705BA /* [CP] Embed Pods Frameworks */ = {
+		700D22E02297EE3BD7DA2823 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +269,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		672D011366504E5812149388 /* [CP] Check Pods Manifest.lock */ = {
+		81A7F2ED433C37522A793588 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,23 +289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5DAECE31187253D643AD32B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mlysdkDemo/Pods-mlysdkDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -317,7 +311,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D87BE784B55BE05A02461ED /* Pods-mlysdkDemo.debug.xcconfig */;
+			baseConfigurationReference = 1FA42370038D45259A41509C /* Pods-mlysdkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -347,7 +341,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA5A8005731E59F4DEA8DA84 /* Pods-mlysdkDemo.release.xcconfig */;
+			baseConfigurationReference = 495A827E0F1B21151D46A885 /* Pods-mlysdkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +408,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -440,6 +435,10 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -482,6 +481,10 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					_LIBCPP_ENABLE_CXX17_REMOVED_UNARY_BINARY_FUNCTION,
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -505,6 +508,10 @@
 					"-DFOLLY_NO_CONFIG",
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;

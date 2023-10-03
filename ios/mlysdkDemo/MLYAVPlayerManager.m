@@ -3,7 +3,6 @@
 #import <React/RCTViewManager.h>
 #import <AVKit/AVKit.h>
 #import <React/RCTLog.h>
-@import MLYSDK;
 @import MLYAVPlayer;
 
 @implementation MLYAVPlayerManager
