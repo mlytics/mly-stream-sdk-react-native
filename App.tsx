@@ -1,5 +1,5 @@
-import React, { useState } from 'react'; 
-import type { PropsWithChildren } from 'react';
+import React, {useState} from 'react';
+import type {PropsWithChildren} from 'react';
 import MlyPlayer from './MlyPlayer.js';
 
 import {
@@ -27,7 +27,7 @@ type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
-function Section({ children, title }: SectionProps): JSX.Element {
+function Section({children, title}: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
@@ -54,16 +54,17 @@ function Section({ children, title }: SectionProps): JSX.Element {
 }
 
 function App(): JSX.Element {
-
   const initDriver = () => {
-    
-    const clientID = 'cegh8d9j11u91ba1u600'
-    const sampleRate = 0.5
-    const debug = true
-    const result = NativeModules.MLYDriver.initialize({clientID,sampleRate,debug});
+    const clientID = 'cegh8d9j11u91ba1u600';
+    const sampleRate = 0.5;
+    const debug = true;
+    const result = NativeModules.MLYDriver.initialize({
+      clientID,
+      sampleRate,
+      debug,
+    });
     console.log('MLYSDK initialize result:', result);
-
-  }
+  };
 
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -71,12 +72,12 @@ function App(): JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  const abr =
+    'https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8';
 
-  const abr = 'https://vsp-stream.s3.ap-northeast-1.amazonaws.com/HLS/raw/SpaceX.m3u8'
-  
   const [src, setSrc] = useState(abr);
 
-  const [autoplay, setAutoplay] = useState(false); 
+  const [autoplay, setAutoplay] = useState(false);
 
   return (
     <SafeAreaView style={backgroundStyle}>
@@ -92,36 +93,27 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-        <View style={{ aspectRatio: 16 / 9, width: '100%'}} >
-              <MlyPlayer
-                    src={src}
-                    controls={true}
-                    muted={false}
-                    isLoaderAllowed={true}
-                    isMonitorAllowed={true}
-                    autoplay={autoplay}
-                />
-        </View>
-
-          <Section title="Initialize Driver" >
-
-            <Button
-              onPress={initDriver}
-              title="Initialize"
-              color="#841584"
+          <View style={{aspectRatio: 16 / 9, width: '100%'}}>
+            <MlyPlayer
+              src={src}
+              controls={true}
+              muted={false}
+              isLoaderAllowed={true}
+              isMonitorAllowed={true}
+              autoplay={autoplay}
             />
+          </View>
 
+          <Section title="Initialize Driver">
+            <Button onPress={initDriver} title="Initialize" color="#841584" />
           </Section>
           <Section title="Play / Pause">
-
             <Button
               onPress={() => setAutoplay(!autoplay)}
-              title={ autoplay ? 'Pause' : 'Play'}
+              title={autoplay ? 'Pause' : 'Play'}
               color="#841584"
             />
-            
           </Section>
-
         </View>
       </ScrollView>
     </SafeAreaView>
