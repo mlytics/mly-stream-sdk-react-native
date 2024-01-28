@@ -28,12 +28,8 @@ RCT_CUSTOM_VIEW_PROPERTY(controls, BOOL, UIView){
 }
 
 RCT_CUSTOM_VIEW_PROPERTY(autoplay, BOOL, UIView){
-  BOOL tmp = [json boolValue];
-  if (tmp) {
-    [manager autoplay: [json boolValue]];
-  }else{
-    [manager pause];
-  }
+  BOOL isPlay = [json boolValue];
+  isPlay ? [manager play] : [manager pause];
 }
 
 RCT_CUSTOM_VIEW_PROPERTY(muted, BOOL, UIView){
